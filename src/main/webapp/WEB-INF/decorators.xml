@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+    <decorator name="main" page="main-decorator.jsp">
+        <pattern>/profile</pattern>
+        <pattern>/profile/update</pattern>
+    </decorator>
+
+</decorators>
