@@ -75,6 +75,7 @@ public class ProductController extends HttpServlet {
         // Admin — danh sách products
         } else if (url.contains("/admin/products")) {
             List<Product> list = productService.findAll();
+            System.out.println("SO LUONG SP: " + list.size());
             req.setAttribute("listproduct", list);
             req.getRequestDispatcher("/views/admin/product-list.jsp").forward(req, resp);
 

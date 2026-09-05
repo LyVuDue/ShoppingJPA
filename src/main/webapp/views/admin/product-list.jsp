@@ -10,7 +10,7 @@
 <div class="container mt-4">
   <h3>Tất cả sản phẩm</h3>
   <div class="row">
-    <c:forEach items="${products}" var="p">
+    <c:forEach items="${listproduct}" var="p">
       <div class="col-md-4 mb-4">
         <div class="card">
           <c:url value="/image?fname=${p.images}" var="imgUrl"/>
