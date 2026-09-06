@@ -2,8 +2,22 @@
 <decorators defaultdir="/decorators">
 
     <decorator name="main" page="main-decorator.jsp">
+        <pattern>/home</pattern>
+        <pattern>/product</pattern>
+        <pattern>/product/detail</pattern>
+        <pattern>/admin/products</pattern>
+        <pattern>/admin/product/add</pattern>
+        <pattern>/admin/product/edit</pattern>
+        <pattern>/admin/categories</pattern>
+        <pattern>/admin/category/add</pattern>
+        <pattern>/admin/category/edit</pattern>
         <pattern>/profile</pattern>
         <pattern>/profile/update</pattern>
+        <pattern>/login</pattern>
+        <pattern>/register</pattern>
+        <pattern>/forgot-password</pattern>
+        <pattern>/reset-password</pattern>
+        <pattern>/verify-otp</pattern>
     </decorator>
 
 </decorators>

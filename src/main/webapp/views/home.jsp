@@ -4,24 +4,9 @@
 <html>
 <head>
   <title>Trang chủ</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container mt-4">
-  <nav class="navbar navbar-light bg-light mb-4">
-    <a class="navbar-brand" href="home">Shopping</a>
-    <div>
-      <a href="product" class="btn btn-outline-primary mr-2">Tất cả sản phẩm</a>
-      <c:if test="${sessionScope.account == null}">
-        <a href="login" class="btn btn-primary">Đăng nhập</a>
-      </c:if>
-      <c:if test="${sessionScope.account != null}">
-  		<a href="profile" class="btn btn-outline-secondary mr-2">Hồ sơ của tôi</a>
-  		<span>Xin chào ${sessionScope.account.fullname}</span>
-  		<a href="logout" class="btn btn-danger ml-2">Đăng xuất</a>
-	  </c:if>
-    </div>
-  </nav>
 
   <h3>Sản phẩm mới nhất</h3>
   <div class="row">

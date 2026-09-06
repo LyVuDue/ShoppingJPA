@@ -19,6 +19,5 @@
     <filter-name>sitemesh</filter-name>
     <url-pattern>/*</url-pattern>
     <dispatcher>REQUEST</dispatcher>
-    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
 </web-app>
